@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		289E337D187FF16400442BA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289E337C187FF16400442BA0 /* Foundation.framework */; };
+		289E3382187FF16400442BA0 /* Tools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 289E3381187FF16400442BA0 /* Tools.h */; };
+		289E3384187FF16400442BA0 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 289E3383187FF16400442BA0 /* Tools.m */; };
+		289E338F187FF1DE00442BA0 /* BSDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 289E338E187FF1DE00442BA0 /* BSDatabase.m */; };
+		289E3392187FF1FD00442BA0 /* BSXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 289E3391187FF1FD00442BA0 /* BSXML.m */; };
+		289E3395187FF20F00442BA0 /* BSCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = 289E3394187FF20F00442BA0 /* BSCompress.m */; };
+		289E3398187FF22000442BA0 /* BSEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 289E3397187FF22000442BA0 /* BSEncrypt.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		289E3377187FF16400442BA0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				289E3382187FF16400442BA0 /* Tools.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		289E3379187FF16400442BA0 /* libTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		289E337C187FF16400442BA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		289E3380187FF16400442BA0 /* Tools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tools-Prefix.pch"; sourceTree = "<group>"; };
+		289E3381187FF16400442BA0 /* Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		289E3383187FF16400442BA0 /* Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		289E338D187FF1DE00442BA0 /* BSDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDatabase.h; sourceTree = "<group>"; };
+		289E338E187FF1DE00442BA0 /* BSDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDatabase.m; sourceTree = "<group>"; };
+		289E3390187FF1FD00442BA0 /* BSXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSXML.h; sourceTree = "<group>"; };
+		289E3391187FF1FD00442BA0 /* BSXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSXML.m; sourceTree = "<group>"; };
+		289E3393187FF20F00442BA0 /* BSCompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSCompress.h; sourceTree = "<group>"; };
+		289E3394187FF20F00442BA0 /* BSCompress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSCompress.m; sourceTree = "<group>"; };
+		289E3396187FF22000442BA0 /* BSEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSEncrypt.h; sourceTree = "<group>"; };
+		289E3397187FF22000442BA0 /* BSEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSEncrypt.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		289E3376187FF16400442BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289E337D187FF16400442BA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		289E336E187FF16400442BA0 = {
+			isa = PBXGroup;
+			children = (
+				289E337E187FF16400442BA0 /* Tools */,
+				289E337B187FF16400442BA0 /* Frameworks */,
+				289E337A187FF16400442BA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		289E337A187FF16400442BA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				289E3379187FF16400442BA0 /* libTools.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		289E337B187FF16400442BA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				289E337C187FF16400442BA0 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		289E337E187FF16400442BA0 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				289E3381187FF16400442BA0 /* Tools.h */,
+				289E3383187FF16400442BA0 /* Tools.m */,
+				289E337F187FF16400442BA0 /* Supporting Files */,
+				289E338D187FF1DE00442BA0 /* BSDatabase.h */,
+				289E338E187FF1DE00442BA0 /* BSDatabase.m */,
+				289E3390187FF1FD00442BA0 /* BSXML.h */,
+				289E3391187FF1FD00442BA0 /* BSXML.m */,
+				289E3393187FF20F00442BA0 /* BSCompress.h */,
+				289E3394187FF20F00442BA0 /* BSCompress.m */,
+				289E3396187FF22000442BA0 /* BSEncrypt.h */,
+				289E3397187FF22000442BA0 /* BSEncrypt.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		289E337F187FF16400442BA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				289E3380187FF16400442BA0 /* Tools-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		289E3378187FF16400442BA0 /* Tools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289E3387187FF16400442BA0 /* Build configuration list for PBXNativeTarget "Tools" */;
+			buildPhases = (
+				289E3375187FF16400442BA0 /* Sources */,
+				289E3376187FF16400442BA0 /* Frameworks */,
+				289E3377187FF16400442BA0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tools;
+			productName = Tools;
+			productReference = 289E3379187FF16400442BA0 /* libTools.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		289E3370187FF16400442BA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = mobile;
+			};
+			buildConfigurationList = 289E3373187FF16400442BA0 /* Build configuration list for PBXProject "Tools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 289E336E187FF16400442BA0;
+			productRefGroup = 289E337A187FF16400442BA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				289E3378187FF16400442BA0 /* Tools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		289E3375187FF16400442BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289E3384187FF16400442BA0 /* Tools.m in Sources */,
+				289E338F187FF1DE00442BA0 /* BSDatabase.m in Sources */,
+				289E3392187FF1FD00442BA0 /* BSXML.m in Sources */,
+				289E3395187FF20F00442BA0 /* BSCompress.m in Sources */,
+				289E3398187FF22000442BA0 /* BSEncrypt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		289E3385187FF16400442BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		289E3386187FF16400442BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		289E3388187FF16400442BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Tools.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tools/Tools-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		289E3389187FF16400442BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Tools.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tools/Tools-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		289E3373187FF16400442BA0 /* Build configuration list for PBXProject "Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289E3385187FF16400442BA0 /* Debug */,
+				289E3386187FF16400442BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		289E3387187FF16400442BA0 /* Build configuration list for PBXNativeTarget "Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289E3388187FF16400442BA0 /* Debug */,
+				289E3389187FF16400442BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 289E3370187FF16400442BA0 /* Project object */;
+}
