@@ -535,12 +535,26 @@ void *_doc;
 	xmlChar *pBuffer = NULL;
 	int nBufferLen = 0;
 	
-	xmlDocDumpMemory(_doc, &pBuffer, &nBufferLen);
+    xmlDocDumpMemoryEnc(_doc, &pBuffer, &nBufferLen, "UTF-8");
+    
+    if (nBufferLen == 0)
+    {
+        xmlFree(pBuffer);
+        return nil;
+    }
     
     //去掉开始的空格和结束的空格
-    memmove(pBuffer + 21, pBuffer+22, nBufferLen - 22);
+    // memmove(pBuffer + 21, pBuffer+22, nBufferLen - 22);
+    
+    xmlChar *pos = (xmlChar*)strchr((const char*)pBuffer, '>');
+    if (pos != NULL)
+    {
+        int len = pos - pBuffer + 1;
+        memmove(pBuffer + len, pBuffer+len + 1, nBufferLen - len - 1);
+    }
     
     NSData *pData = [NSData dataWithBytes:pBuffer length:nBufferLen - 2];
+    
     xmlFree(pBuffer);
     return  pData;
 }
