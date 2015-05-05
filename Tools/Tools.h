@@ -12,3 +12,4 @@
 #import "BSXML.h"
 #import "BSCompress.h"
 #import "BSEncrypt.h"
+#import "MyFtpUpload.h"
