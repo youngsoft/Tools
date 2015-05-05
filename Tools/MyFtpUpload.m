@@ -108,14 +108,14 @@
             {
                 self.buffer = malloc(64*1024);
                 self.hasWrite = 0;
-                self.remainRead = [self.inputStream read:buffer maxLength:64*1024];
+                self.remainRead = (int)[self.inputStream read:buffer maxLength:64*1024];
                 TotalLen += self.remainRead;
             }
             
            
             if (self.remainRead > 0)
             {
-                int write = [self.outputStream write:buffer + self.hasWrite maxLength:self.remainRead];
+                int write = (int)[self.outputStream write:buffer + self.hasWrite maxLength:self.remainRead];
                 if (write == -1)
                 {
                     if (self.inputStream != nil)
