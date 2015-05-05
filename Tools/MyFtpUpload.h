@@ -18,6 +18,7 @@
 @end
 
 //一个支持文件和目录的上载类。
+//可以同时支持文件和目录
 @interface MyFtpUpload : NSObject<NSStreamDelegate,MyFtpUploadDelegate>
 
 @property(nonatomic, assign) id<MyFtpUploadDelegate> delegate;

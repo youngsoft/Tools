@@ -261,9 +261,9 @@
     [self retain];
     
     //去掉后面部分
-    NSLog(@"=====%@",self.remoteFile);
+   // NSLog(@"=====%@",self.remoteFile);
     NSString *dirPath = self.remoteFile.stringByDeletingLastPathComponent;
-     NSLog(@"=====%@",dirPath);
+    // NSLog(@"=====%@",dirPath);
     if ([dirPath isEqualToString:@"/"])
     {
         
