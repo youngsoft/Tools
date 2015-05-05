@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1807EB991AF865E300D55F00 /* MyFtpUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = 1807EB981AF865E300D55F00 /* MyFtpUpload.m */; };
 		289E337D187FF16400442BA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289E337C187FF16400442BA0 /* Foundation.framework */; };
 		289E3382187FF16400442BA0 /* Tools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 289E3381187FF16400442BA0 /* Tools.h */; };
 		289E3384187FF16400442BA0 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 289E3383187FF16400442BA0 /* Tools.m */; };
@@ -30,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1807EB971AF865E300D55F00 /* MyFtpUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFtpUpload.h; sourceTree = "<group>"; };
+		1807EB981AF865E300D55F00 /* MyFtpUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFtpUpload.m; sourceTree = "<group>"; };
 		289E3379187FF16400442BA0 /* libTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		289E337C187FF16400442BA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		289E3380187FF16400442BA0 /* Tools-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tools-Prefix.pch"; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 		289E337E187FF16400442BA0 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				1807EB971AF865E300D55F00 /* MyFtpUpload.h */,
+				1807EB981AF865E300D55F00 /* MyFtpUpload.m */,
 				289E3381187FF16400442BA0 /* Tools.h */,
 				289E3383187FF16400442BA0 /* Tools.m */,
 				289E337F187FF16400442BA0 /* Supporting Files */,
@@ -164,6 +169,7 @@
 				289E3392187FF1FD00442BA0 /* BSXML.m in Sources */,
 				289E3395187FF20F00442BA0 /* BSCompress.m in Sources */,
 				289E3398187FF22000442BA0 /* BSEncrypt.m in Sources */,
+				1807EB991AF865E300D55F00 /* MyFtpUpload.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +265,7 @@
 				289E3389187FF16400442BA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
